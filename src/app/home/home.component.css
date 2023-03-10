@@ -2,6 +2,7 @@ h1{
   margin-bottom: 20px;
 }
 
-body{
+.main-div{
+  padding: 0px 10px;
   font-size: 20px;
 }
