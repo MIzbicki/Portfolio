@@ -4,3 +4,12 @@
 body{
   padding: 20px;
 }
+
+.main-div{
+  padding: 0px 10px;
+}
+
+.btn:disabled{
+  background-color: rgb(162, 162, 162);
+  border: 0px;
+}
