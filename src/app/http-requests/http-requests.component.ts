@@ -11,5 +11,10 @@ export class HTTPRequestsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  viewMode: string = 'Part 1';
+
+  onNavClick(vMode: string) {
+    this.viewMode = vMode;
+  }
 
 }
