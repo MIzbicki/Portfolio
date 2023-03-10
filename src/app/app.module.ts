@@ -15,6 +15,7 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { FormComponent } from './form/form.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HTTPRequestsComponent } from './http-requests/http-requests.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BoardComponent,
     SquareComponent,
     UdemyFormComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    HTTPRequestsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { HTTPRequestsComponent } from './http-requests/http-requests.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { FormComponent } from './form/form.component';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'tic-tac-toe', component: TicTacToeComponent },
   { path: 'forms', component: FormComponent },
   { path: 'change-password', component: ChangePasswordComponent },
+  { path: 'http-requests', component: HTTPRequestsComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
