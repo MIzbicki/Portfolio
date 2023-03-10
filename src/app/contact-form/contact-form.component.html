@@ -1,4 +1,4 @@
-___________________________________________________________________________________________
+<h3>Forms</h3>
 
 <form #f="ngForm" (ngSubmit)="logSubmit(f)">
   <div ngModelGroup="contact" #contact="ngModelGroup">
@@ -101,4 +101,9 @@ ________________________________________________________________________________
   <button class="btn btn-primary" [disabled]="!f.valid">
     Submit
   </button>
+  <p>
+    There is no action behind submit button.
+    <br>
+    It shows only that form is valid.
+  </p>
 </form>
