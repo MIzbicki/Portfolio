@@ -9,7 +9,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { FormComponent } from './form/form.component';
-import { UdemyFormComponent } from './udemy-form/udemy-form.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     TicTacToeComponent,
     NotFoundComponent,
     FormComponent,
-    UdemyFormComponent,
     ChangePasswordComponent
   ],
   imports: [
