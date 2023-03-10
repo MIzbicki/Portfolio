@@ -1,3 +1,5 @@
+import { SquareComponent } from './square/square.component';
+import { BoardComponent } from './board/board.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -20,7 +22,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     TicTacToeComponent,
     NotFoundComponent,
     FormComponent,
-    ChangePasswordComponent
+    ChangePasswordComponent,
+    BoardComponent,
+    SquareComponent
   ],
   imports: [
     BrowserModule,
