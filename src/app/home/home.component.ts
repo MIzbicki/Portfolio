@@ -11,5 +11,29 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  youWillFindList=[
+    "Routing",
+    "Active Forms",
+    "HTTP based operation",
+    "Responsive layout",
+    "Bootstrap classes",
+    "Navigation",
+    "Logic implementation",
+    "Others …"
+  ]
+
+  usedForDevelopmentList=[
+    "Routing",
+    "Observables",
+    "Forms",
+    "HTTP CRUD operations",
+    "Npm",
+    "Webpack, bundling",
+    "TSLint",
+    "Directives, Services, Components, Providers, Classes",
+    "Angular CLI",
+    "Bootstrap",
+    "Binding & interpolation"
+  ]
 
 }

@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { FormComponent } from './form/form.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [

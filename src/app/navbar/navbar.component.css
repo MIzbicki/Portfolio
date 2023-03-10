@@ -1,0 +1,8 @@
+.my-font-size{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar{
+  --bs-navbar-nav-link-padding-x: 1.5rem;
+}
