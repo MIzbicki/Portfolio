@@ -6,3 +6,8 @@
 .navbar{
   --bs-navbar-nav-link-padding-x: 1.5rem;
 }
+
+.active{
+  font-weight: bold;
+  background-color: blanchedalmond;
+}

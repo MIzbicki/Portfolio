@@ -1,3 +1,9 @@
+<p>
+  This page is based on Fake API implementation. <br>
+  Array is downloaded via API, but delete and push operation are made only in
+  component table. <br>
+  Changes will disapear after end on component lifecycle. <br>
+</p>
 <input
   #myInput
   (keyup.enter)="addToList(myInput)"
@@ -14,7 +20,6 @@
       Update
     </button>
     -->
-
     <button class="btn btn-primary btn-sm"
       (click)="deletePost(post)">
       Delete
