@@ -1,4 +1,3 @@
-<p>http-requests works!</p>
 <ul class="nav nav-pills">
   <li class="nav-item pointer"
     (click)="onNavClick('Part 1')">
@@ -14,11 +13,18 @@
       Part 2
     </a>
   </li>
-  <li class="nav-item pointer"
-    (click)="onNavClick('Part 3')">
-    <a class="nav-link"
-      [class.active]="viewMode == 'Part 3'">
-      Part 3
-    </a>
-  </li>
 </ul>
+<br>
+
+<div [ngSwitch]="viewMode">
+  <div *ngSwitchCase="'Part 1'">
+    Part 1
+    <!--<app-post>
+
+  </app-post>-->
+  </div>
+  <div *ngSwitchCase="'Part 2'">
+    Part 2
+    <!--<my-followers></my-followers>-->
+  </div>
+</div>
