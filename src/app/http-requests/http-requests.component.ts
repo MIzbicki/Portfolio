@@ -16,5 +16,10 @@ export class HTTPRequestsComponent implements OnInit {
   onNavClick(vMode: string) {
     this.viewMode = vMode;
   }
-
 }
+
+export enum ngSwitchType {
+  currentPlayer = 'currentPlayer',
+  winner = 'winner',
+  draw = 'draw'
+ }
