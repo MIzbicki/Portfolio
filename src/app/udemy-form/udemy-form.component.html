@@ -1,7 +1,7 @@
 ___________________________________________________________________________________________
 <form #myForm="ngForm" (ngSubmit)="myLog(myForm.value)">
   <div class="form-group">
-    <label for="courseName">Course Name</label>
+    <label for="courseName">Course Name *</label>
     <input
     required
     minlength="5"
@@ -23,7 +23,7 @@ ________________________________________________________________________________
   </div><br>
 
   <div class="form-group">
-    <label for="category">Category</label>
+    <label for="category">Category *</label>
     <select
     required
     ngModel
