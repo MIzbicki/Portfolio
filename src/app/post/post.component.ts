@@ -54,7 +54,7 @@ export class PostComponent implements OnInit {
   }*/
 
   addToList(myInput: any) {
-    let post = { title: myInput.value };
+    const post = { title: myInput.value };
     myInput.value = '';
 
     this.service.create(post)
@@ -86,7 +86,7 @@ export class PostComponent implements OnInit {
     this.service.delete(post.id)
       .subscribe(
         response => {
-          let index = this.posts.indexOf(post);
+          const index = this.posts.indexOf(post);
           this.posts.splice(index, 1);
         },
         /*(error: Response) => {
