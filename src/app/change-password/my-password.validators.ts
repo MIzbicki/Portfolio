@@ -30,8 +30,8 @@ export class myValidators {
   */
 
   static comparePasswords(control: AbstractControl): ValidationErrors|null{
-    let newPassword = control.get('newPassword')?.value;
-    let confirmPassword = control.get('confirmPassword')?.value;
+    const newPassword = control.get('newPassword')?.value;
+    const confirmPassword = control.get('confirmPassword')?.value;
     if( newPassword != confirmPassword)
     {
       return { differentPasswords: true };

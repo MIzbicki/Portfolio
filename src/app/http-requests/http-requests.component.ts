@@ -1,17 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-http-requests',
   templateUrl: './http-requests.component.html',
   styleUrls: ['./http-requests.component.css']
 })
-export class HTTPRequestsComponent implements OnInit {
+export class HTTPRequestsComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-  viewMode: string = 'Part 1';
+  viewMode = 'Part 1';
 
   onNavClick(vMode: string) {
     this.viewMode = vMode;
