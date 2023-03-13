@@ -22,6 +22,7 @@ import { MyFollowersComponent } from './my-followers/my-followers.component';
 import { PostService } from './services/post.service';
 import { MyFollowersService } from './services/my-followers.service';
 import { RedirectToHomeComponent } from './redirect-to-home/redirect-to-home.component';
+import { PasjonadkaComponent } from './pasjonadka/pasjonadka.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { RedirectToHomeComponent } from './redirect-to-home/redirect-to-home.com
     HTTPRequestsComponent,
     MyFollowersComponent,
     PostComponent,
-    RedirectToHomeComponent
+    RedirectToHomeComponent,
+    PasjonadkaComponent
   ],
   imports: [
     BrowserModule,

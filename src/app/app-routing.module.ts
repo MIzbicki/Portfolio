@@ -1,3 +1,4 @@
+import { PasjonadkaComponent } from './pasjonadka/pasjonadka.component';
 import { RedirectToHomeComponent } from './redirect-to-home/redirect-to-home.component';
 import { HTTPRequestsComponent } from './http-requests/http-requests.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'forms', component: FormComponent },
   { path: 'change-password', component: ChangePasswordComponent },
   { path: 'http-requests', component: HTTPRequestsComponent },
+  { path: 'pasjonadka', component: PasjonadkaComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
