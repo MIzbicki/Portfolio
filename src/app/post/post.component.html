@@ -1,3 +1,9 @@
+<p>
+  This page is based on Fake API implementation. <br>
+  Array is downloaded via API. While delete and post operations, we send a request, we get a response, but no operations are performed on the backend.<br>
+  That's why the table always fetches full and the next posts have id == 101.<br>
+  <br>
+</p>
 <input
   #myInput
   (keyup.enter)="addToList(myInput)"
@@ -14,7 +20,6 @@
       Update
     </button>
     -->
-
     <button class="btn btn-primary btn-sm"
       (click)="deletePost(post)">
       Delete

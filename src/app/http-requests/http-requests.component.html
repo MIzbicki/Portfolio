@@ -18,13 +18,9 @@
 
 <div [ngSwitch]="viewMode">
   <div *ngSwitchCase="'Part 1'">
-    Part 1
-  <app-post>
-
-  </app-post>
+    <app-post></app-post>
   </div>
   <div *ngSwitchCase="'Part 2'">
-    Part 2
     <my-followers></my-followers>
   </div>
 </div>
