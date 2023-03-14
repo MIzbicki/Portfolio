@@ -13,6 +13,12 @@ export class ContactFormComponent {
     { id: 3, name: 'personally' }
   ]
 
+  cities = [
+    { id: 1, name: 'Szczecin' },
+    { id: 2, name: 'Poznań' },
+    { id: 3, name: 'Warszawa' }
+  ]
+
   myLog(tempVar:any){
     console.log(tempVar);
   }
