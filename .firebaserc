@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "michal-izbicki"
-  }
+  },
+  "targets": {
+    "michal-izbicki": {
+      "hosting": {
+        "main": [
+          "michal-izbicki",
+          "michal-izbicki-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

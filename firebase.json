@@ -1,16 +1,20 @@
 {
-  "hosting": {
-    "public": "dist/michal-izbicki-portfolio",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
+    "hosting":
+    [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "target": "main",
+        "public": "dist/michal-izbicki-portfolio",
+        "ignore": [
+          "firebase.json",
+          "**/.*",
+          "**/node_modules/**"
+        ],
+        "rewrites": [
+          {
+            "source": "**",
+            "destination": "/index.html"
+          }
+        ]
       }
     ]
-  }
 }
