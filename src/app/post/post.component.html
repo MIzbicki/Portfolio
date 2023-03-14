@@ -1,6 +1,7 @@
 <p>
   This page is based on Fake API implementation. <br>
-  Array is downloaded via API. While delete and post operations, we send a request, we get a response, but no operations are performed on the backend.<br>
+  Array is downloaded via API. While delete and post operations, we send a
+  request, we get a response, but no operations are performed on the backend.<br>
   That's why the table always fetches full and the next posts have id == 101.<br>
   <br>
 </p>
@@ -9,6 +10,11 @@
   (keyup.enter)="addToList(myInput)"
   type="text"
   class="form-control">
+<button
+  class="btn btn-primary add-button"
+  (click)="addToList(myInput)">
+  Add post
+</button>
 <br>
 <ul class="list-group" type='1'>
   <li class="list-group-item"
